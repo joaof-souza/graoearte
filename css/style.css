@@ -39,7 +39,16 @@
 
 
 .section-brands{
+    display: flex;
+    flex-direction: column;
     height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-brands__title{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -53,4 +62,28 @@
 .section-brands__grid{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
+
+
+.section-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    width: 28vw;
+    padding: 15px;
+}
+
+
+.section-card__image{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+
