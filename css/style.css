@@ -2,19 +2,25 @@
 @import './reset.css';
 
 .header{
+    position: fixed;
     height: 10vh;
     width: 100%;
+
+    top: 0;
+    left: 0;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
+    padding: 0 5%;
+}
 
 
 .nav__list{
     display: flex;
     gap: 8px;
+    list-style: none;
 }
 
 
@@ -85,5 +91,28 @@
 }
 
 
+.section-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 80vh;
+}
 
 
+.section-process__content{
+    display: flex;
+    align-items: center;
+
+    width: 50vw;
+    height: 15vh;
+}
+
+
+.section-process__text{
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+}

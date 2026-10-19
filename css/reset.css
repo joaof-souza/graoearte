@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+body {
+  /* garante o texto base do documento em 16px (1.6rem) */
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
