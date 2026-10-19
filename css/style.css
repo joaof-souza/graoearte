@@ -1,2 +1,56 @@
 @import './variables.css';
 @import './reset.css';
+
+.header{
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav__list{
+    display: flex;
+    gap: 8px;
+}
+
+
+.section-cafe{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-cafe__container{
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+
+    scroll-margin-top: 10vh;
+}
+
+
+.section-brands{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-brands__title{
+    display: flex;
+}
+
+
+.section-brands__grid{
+    display: flex;
+    flex-wrap: wrap;
+}
