@@ -14,13 +14,27 @@
     justify-content: space-between;
 
     padding: 0 5%;
+    z-index: 1000;
+
+    background-color: var(--color-header-bg);
+    color: var(--color-header-text);
+}
+
+
+.header__title{
+    font-family: var(--font-title);
+    font-size: var(--font-size-lg);
 }
 
 
 .nav__list{
     display: flex;
-    gap: 8px;
+    gap: 15px;
     list-style: none;
+}
+
+.nav_link{
+    
 }
 
 
