@@ -33,8 +33,22 @@
     list-style: none;
 }
 
-.nav_link{
-    
+
+.nav__link{
+    color: var(--color-header-text);
+    text-decoration: none;
+    font-weight: 600;
+
+    font-size: 16px;
+
+    padding: 5px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+
+.nav__link:hover{
+    background-color: var(--color-primary);
 }
 
 

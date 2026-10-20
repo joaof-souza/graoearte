@@ -9,4 +9,5 @@ body {
   /* garante o texto base do documento em 16px (1.6rem) */
   padding-top: 10vh;
   padding-bottom: 10vh;
+  font-family: var(--font-main);
 }
