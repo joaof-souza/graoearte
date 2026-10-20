@@ -3,7 +3,7 @@
 
 .header{
     position: fixed;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
 
     top: 0;
@@ -52,9 +52,31 @@
 }
 
 
+.footer{
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5%;
+    z-index: 1000;
+
+    background-color: var(--color-header-bg);
+    color: var(--color-header-text);
+
+    font-size: var(--font-size-sm);
+}
+
+
 .section-cafe{
     display: flex;
-    height: 80vh;
+    height: 84vh;
     align-items: center;
     justify-content: center;
 }
