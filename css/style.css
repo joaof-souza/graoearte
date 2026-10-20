@@ -1,6 +1,16 @@
 @import './variables.css';
 @import './reset.css';
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: var(--color-bg-main)
+}
+
+
 .header{
     position: fixed;
     height: 8vh;
@@ -121,14 +131,11 @@
 
 
 .section-brands__title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    font-size: var(--font-size-lg);
+    font-family: var(--font-title);
+    color: var(--color-text-title);
+    margin-bottom: 30px;
 
-
-.section-brands__title{
-    display: flex;
 }
 
 
@@ -148,13 +155,17 @@
 
     width: 28vw;
     padding: 15px;
+
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-card);
 }
 
 
-.section-card__image{
-    width: 100%;
-    height: 100px;
-    background-color: black;
+.section-card:hover{
+    box-shadow: var(--shadow-hover);
 }
 
 
