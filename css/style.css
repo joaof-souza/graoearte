@@ -51,7 +51,7 @@ body{
 
     font-size: 16px;
 
-    padding: 5px;
+    padding: 6px;
     border-radius: var(--radius-sm);
     transition: var(--transition);
 }
@@ -166,6 +166,19 @@ body{
 
 .section-card:hover{
     box-shadow: var(--shadow-hover);
+}
+
+
+.section-card__title{
+    font-family: var(--font-title);
+    font-size: var(--font-size-base);
+    color: var(--color-primary);
+}
+
+
+.section-card__text{
+    font-size: 16px;
+    color: var(--color-text-body);
 }
 
 
